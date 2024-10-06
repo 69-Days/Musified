@@ -1,0 +1,85 @@
+[
+    {
+     "title": "Awake",
+     "artist": "VLNRKS, Don Toliver",
+     "src": "Seal - alt/Awake (feat. Devilish Trio).mp3",
+     "imgpath": "Cover/1.png"
+    },
+    
+    {
+     "title": "Don Toliver - Attitude",
+     "artist": "ROUDS", 
+     "src": "Seal - alt/Don Toliver - Attitude (ROUDS Remix).mp3",
+     "imgpath": "Cover/2.png" 
+    },
+    
+    {
+     "title": "Keep My Back", 
+     "artist": "Juche", 
+     "src": "Seal - alt/Keep My Back.mp3",
+     "imgpath": "Cover/3.png"
+    },
+    
+    {
+     "title": "Labyrinth - Don Toliver",
+     "artist": "VLNRKS, Don Toliver", 
+     "src": "Seal - alt/Labyrinth (feat. Devilish Trio).mp3",
+     "imgpath": "Cover/4.png" 
+    },
+    
+    {
+     "title": "Lil Peep - hellboy", 
+     "artist": "SHEXPIR", 
+     "src": "Seal - alt/Lil Peep - hellboy (SHEXPIR Remix).mp3",
+      "imgpath": "Cover/5.png"
+    },
+    
+    {
+     "title": "Linkin Park - She Couldn't", 
+     "artist": "MRJay", 
+     "src": "Seal - alt/Linkin Park - She Couldn't (MRJay Remix) [Wave⧸Phonk].mp3",
+     "imgpath": "Cover/6.png" 
+    },
+    
+    {
+     "title": "Lithe - See U Later", 
+     "artist": "Bafu", 
+     "src": "Seal - alt/Lithe - See U Later (Bafu Remix) [wave⧸phonk].mp3",
+     "imgpath": "Cover/7.png" 
+    },
+    
+    {
+     "title": "Mark", 
+     "artist": "Xelon", 
+     "src": "Seal - alt/Mark.mp3",
+     "imgpath": "Cover/8.png" 
+    },
+    
+    {
+     "title": "Aftershock", 
+     "artist": "MRJay", 
+     "src": "Seal - alt/MRJay - Aftershock [Wave⧸Phonk].mp3",
+     "imgpath": "Cover/9.png" 
+    },
+    
+    {
+     "title": "Nocturnus", 
+     "artist": "Fyripu", 
+     "src": "Seal - alt/Nocturnus.mp3",
+     "imgpath": "Cover/10.png" 
+    },
+    
+    {
+     "title": "HIGHWAY", 
+     "artist": "RYDER SPOT", 
+     "src": "Seal - alt/RYDER SPOT - HIGHWAY.mp3",
+     "imgpath": "Cover/11.png"
+    },
+    
+    {
+     "title": "LOSING CONTROL", 
+     "artist": "TEARZ", 
+     "src": "Seal - alt/TEARZ - LOSING CONTROL [Wave⧸Phonk].mp3",
+     "imgpath": "Cover/12.png" 
+    }
+]

@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle&family=Odibee+Sans&family=Unica+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@100..900&display=swap');
+
+  
+body::-webkit-scrollbar{width:0;}
+  
+*::-webkit-scrollbar {width:8px;}
+*::-webkit-scrollbar-track {background:rgb(0,25,35);border-radius:50px;}
+*::-webkit-scrollbar-thumb {background-color:rgba(0,115,195,0.35);border-radius:20px;}
+
+
+body{background-color:rgb(0,0,0);background-position:center;background-repeat:no-repeat;
+    background-size:cover;height:auto;width:auto;user-select:none;margin:auto 0.5em;overflow-x:hidden;}
+
+.bgblurred{position:absolute;top:0;left:0%;height:100vh;width:100vw;overflow:hidden;}
+.bgblur{background-position:center;background-size:fill;background-repeat:no-repeat;zoom:150%;
+    filter:brightness(45%)saturate(15)blur(65px);opacity:1;transition:opacity 0.5s ease-in-out;}
+.hidden{opacity:0;}
+
+.right{position:relative;display:flex;margin:6.25vh 2vw;justify-content:right;}
+
+.list-container{position:relative;display:flex;margin:0vh -2vw;
+    height:64vh;width:39vw;overflow-x:hidden;}
+.songart{position:relative;height:2.5vh;width:1.25em;margin:0vh 0.15vw;margin-right:0.35em; z-index:1;}
+
+.songartplay{display:flex;height:2.15vh;width:auto;padding:0.16vh 0.25em;transform:translateX(0.10vw);
+    background-color:rgb(5,5,5,0.65);transition:opacity 0.5s ease;cursor:pointer;z-index:1;}
+
+.wrap-list span{position:relative;display:flex;height:auto;width:36.90vw;margin:0.25vh 0.5vw;padding:0.20vh  0.25em;
+    background-color:rgb(75,85,85,0.38);transition:0.30s;backdrop-filter:blur(25px);align-items:center;}
+.wrap-list span:hover{background-color:rgba(95,95,95,0.45);}
+.playlist{position:absolute;display:flex;flex-direction:column;font-family:'Dongle';font-size:2.75vh;color:rgba(225,225,225,0.75);}
+
+.Trackart{position:absolute;display:flex;height:25vh;width:12.5vw;transform:translateX(0.85vw)translateY(-12.95vh);}
+.Trackcover{border:1px solid rgba(155,155,155,0.45);border-radius:1vh;background-size:cover;}
+
+.bottom{position:relative;display:flex;flex-direction:column;transform:translateY(12.95vh);}
+.togethered{display:flex;justify-content:space-between;width:98.15vw;}
+.current{position:relative;display:flex;flex-direction:column;line-height:18.5px;margin:1.5vh 0.95vw;}
+.track-title{font-family:'Dongle';font-size:1.95em;font-weight:500;color:white;}
+.track-artist{font-family:'Dongle';font-size:1.45em;font-weight:100;color:rgba(200,200,200, 0.65);}
+
+.buttons{display:flex; gap:0.5vw;margin:auto 0.15vw;}
+
+.Icons{display:flex;height:fit-content;border-radius:0.95vh;padding:0.60vh 0.35vw;transition:border-radius 0.15s ease;
+    background-color:rgba(90,95,95,0.30);backdrop-filter:blur(50px);}.Icons:hover{border-radius:1.95vh;}
+.playcon{position:absolute;display:flex;height:2.65vh;width:auto;margin:auto;}
+.pauscon{display:flex;height:2.65vh;width:auto;margin:auto;}
+
+.progress-container{display:flex;width:97.25vw;height:1.25vh;border-radius:0.75vw;
+    background-color:rgb(50,52,52,0.55);overflow:hidden;margin:0vh auto;backdrop-filter:blur(50px);}
+.progress-bar{display:flex;height:100%;width:auto;border:none;border-radius:2.69em;
+    background-color:rgba(255,255,255,0.69);}
+
+@media  only screen and (max-width:720px) {
+    .right{position:relative;margin:1vh auto;justify-content:center;}
+    .list-container{width:96vw;margin:0.5vh auto;}
+    .wrap-list span{width:94.5vw;padding:0.25vh 0.95vw;}
+    .songart{height:2.25vh;width:4vw;margin-right:1.5vw;}
+    .Trackart{transform:translateX(1.15vw)translateY(3.25vh);height:18vh;width:auto;}
+    .bottom{transform:translateY(21.5vh);}
+    .current{margin: 1.25vh 1.25vw;}
+    .buttons{margin:0.95vh 2.25vw;gap:1.25vw;}
+    .Icons{padding:0.45vh;}
+    .progress-container{width:94.94vw;}
+}

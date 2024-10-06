@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>m u s i f y . b e t a</title>
+        <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="app.js"></script>
+    </head>
+    <body>
+
+      <div class="bgblurred">
+        <img class="bgblur">
+      </div>
+
+        <div class="right">
+          <div class="list-container" id="playlist">
+            <div class="wrap-list"><div class="playlist" id="playlist-songs">
+              <img class="songart" loading="lazy">
+            </div></div>
+          </div>
+        </div>
+        
+        <div class="Trackart">
+          <img class="Trackcover">
+        </div>
+
+        <div class="bottom">
+          <div class="togethered">
+            <div class="current">
+              <span class="track-title" id="song-title">Title</span>
+              <span class="track-artist" id="song-artist">Artist</span>
+            </div>
+
+            <div class="buttons">
+              <div class="Icons" onclick="playPreviousSong()">
+                <img class="pauscon" src="Icons/prev.png">
+              </div>
+
+            <div class="Icons" onclick="togglePlay()">
+              <img id="playbtn" class="playcon" src="Icons/play.png">
+              <img id="pausbtn" class="pauscon" src="Icons/pause.png"></div>
+              
+            <div class="Icons" onclick="playNextSong()">
+              <img class="pauscon" src="Icons/next.png"></div>
+
+              <div onclick="shufflePlaylist()" id="shuffle" class="Icons"><img class="pauscon" src="Icons/shuffle.png"></div>
+            </div>
+          </div>
+
+          <div id="progress-container" class="progress-container">
+            <div id="progress-bar" class="progress-bar"></div>
+          </div>
+        </div>
+        
+        <audio id="audio-player"></audio>
+
+    </body>
+</html>
